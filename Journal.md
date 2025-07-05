@@ -1,8 +1,11 @@
-**Day 1 2h**
+**Day 1, 2h: Brainstorming and reasesearch**
+
 I needed to fully figure out how I was going to design the board, after seeing how other ergonomic boards do it I decided I would split each half into their row and the thumb cluster, this means each side would have a seperate pcb for every row and the thumb cluster so 5 rows +1 thumb cluster per side. to connect them I will add a hole on each side of the rows and I can 3d print a bracket to connect them all on the angle I want. I also am hoping by the end i can used the space created by having the angle to put the battery and microcontroller.
 
-**Day 2 4h**
+**Day 2, 4h: Schematic + PCB**
+
 I created the schematic today, there were a few iterations to do and I decided to go as simple as possible, I first made a matrix just to make sure I know how it should be wired, then I made a singular row with each column getting a through hole that I can wire to the other ones as well as a through hole for the row itself to be wired the same is done for the thumb cluster. these will be hand wired with solid core 22awg wire to the microcontroller. The microcontroller is a nice!nano as they are really easy to use with zmk for split keyboards I will also be using a lipo charger and a lipo as the nice!nano works wirelessly.
 
-**Day 3 3h**
+**Day 3, 3h: Starting Cad**
+
 I started the design of the 3d model by first figuring out the angle for each row, I am putting the rows behind the fingers on a shallow angle and the rows above on a lightly sharper angle this should be comfortable from the mock up I printed but it can always be changed later. I then added the section that makes the board sit flat and made sure the screw holes can still be accessed. Now the last part is adding the thumb cluster and this is difficult because it can’t directly attach to the board it needs to attach to two different mounting holes to be sturdy while the mounting holes are on two different angle. My first idea with thtat is to start with the first mounting hole and add the other one later the only other issue I am having is just making sure that It doesnt get in the way of any of the parts under the pcb so I think I am going try a couple things and I’ll see what works.
