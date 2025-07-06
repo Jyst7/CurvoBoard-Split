@@ -15,3 +15,11 @@ I created the schematic today, there were a few iterations to do and I decided t
 **Day 3, 3h: Starting Cad**
 
 I started the design of the 3d model by first figuring out the angle for each row, I am putting the rows behind the fingers on a shallow angle and the rows above on a lightly sharper angle this should be comfortable from the mock up I printed but it can always be changed later. I then added the section that makes the board sit flat and made sure the screw holes can still be accessed. Now the last part is adding the thumb cluster and this is difficult because it can’t directly attach to the board it needs to attach to two different mounting holes to be sturdy while the mounting holes are on two different angle. My first idea with thtat is to start with the first mounting hole and add the other one later the only other issue I am having is just making sure that It doesnt get in the way of any of the parts under the pcb so I think I am going try a couple things and I’ll see what works.
+
+**Day 4, 3h: Finishing Cad, firmware and bom**
+
+I finished the desing of the keyboard, to solve yesterday's issue I realized extruding up to face copies the angle of the selected face making me able to easily connect the parts from then. for the thumb cluster to make it look good I added a small plate that goes on top of it. I did not cad in the screws but any m4 screw around 1/2" should work well. and I chose NuPhy Cowberry switches. I followed zmk's steps to create the firmware and make the keyboard layout, it is named corne in the files but I made it my own layout.
+
+https://www.aliexpress.com/item/1005007036819050.html?
+
+<img width="1113" alt="Screenshot 2025-07-06 at 3 40 24 PM" src="https://github.com/user-attachments/assets/dbb339f2-b559-4828-9f66-3fd760efd1ac" />
